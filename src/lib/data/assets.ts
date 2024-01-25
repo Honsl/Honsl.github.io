@@ -70,7 +70,12 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Tensorflow:a('tensor.svg'),
+	Pytorch:a('pytorch.png'),
+	Scikit:a('scikit.png'),
+	Meta:a('meta.png'),
+	Dotnet:a('dotnet.png'),
 };
 
 export default Assets;
