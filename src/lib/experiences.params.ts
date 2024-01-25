@@ -6,18 +6,18 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'open-sourcer',
 		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
+		description: 'Self-employed',
 		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
+		type: 'Full-Stack Development',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
+		skills: getSkills('Csharp', 'dotnet'),
 		name: 'Open Source Developer',
-		color: 'red',
+		color: '#ffffff',
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: ''
-	},
+	}/*,
 	{
 		slug: 'software-freelance',
 		company: 'Self-employed',
@@ -47,7 +47,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: ''
-	}
+	}*/
 ];
 
 export default MY_EXPERIENCES;

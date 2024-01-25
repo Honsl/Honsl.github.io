@@ -4,21 +4,37 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'llama2-prompting',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Prompting Llama2 to pretend to be a person in certain scenarios',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			'Prompting Llama2 to pretend to be a person in certain scenarios',
+		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		logo: Assets.Meta,
+		name: 'Llama2 Scenario Prompts',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
+		type: 'LLM Prompt Engineering'
 	},
+	{
+		slug: 'chatgpt-prompting',
+		color: '#ff3e00',
+		description:
+			'Prompting ChatGPT to pretend to be a person in certain scenarios',
+		shortDescription:
+			'Prompting ChatGPT to pretend to be a person in certain scenarios',
+		links: [{ to: 'https://github.com/Honsl/GPT-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1JdSsdU05nLOKmJfQoipi0oqNl5KpCGnr?usp=sharing', label: 'Colab' }],
+		logo: Assets.Meta,
+		name: 'ChatGPT Scenario Prompts',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
+		type: 'LLM Prompt Engineering'
+	}/*,
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
@@ -60,7 +76,7 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
-	}
+	}*/
 ];
 
 export default MY_PROJECTS;
