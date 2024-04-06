@@ -21,8 +21,9 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'static/imgs/Picture1.png'
-			}]
+				src: '/projects/static/imgs/Picture1.png'
+			}
+		]
 	},
 	{
 		slug: 'llama2-prompting',
