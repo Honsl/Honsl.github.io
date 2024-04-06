@@ -4,6 +4,22 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'people tracking',
+		color: '#5e95e3',
+		description:
+			'Using Bytetrack<a href=https://github.com/ifzhang/ByteTrack>test</a> and Ocsort mmdetection and mmtracking, detect and track an individual',
+		shortDescription:
+			'Using mmdetection and mmtracking, detect and track an individual',
+		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		logo: Assets.Python,
+		name: 'People Tracking',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
+		type: 'People Tracker'
+	},
+	{
 		slug: 'llama2-prompting',
 		color: '#5e95e3',
 		description:
