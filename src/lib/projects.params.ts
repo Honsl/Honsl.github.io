@@ -21,7 +21,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'https://github.com/Honsl/Honsl.github.io/blob/master/static/imgs/Picture1.png'
+				src: 'https://drive.google.com/file/d/1ME3PLC1C_dekKyfx27cCh18yrAvHuW6q/view?usp=sharing'
 			}
 		]
 	},
