@@ -7,9 +7,9 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'people tracking',
 		color: '#5e95e3',
 		description:
-			'Using Bytetrack<a href=https://github.com/ifzhang/ByteTrack>test</a> and Ocsort mmdetection and mmtracking, detect and track an individual',
+			'Using <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> and <a href=https://github.com/noahcao/OC_SORT>OC_SORT</a> through mmtracking, detect and track an individuals',
 		shortDescription:
-			'Using mmdetection and mmtracking, detect and track an individual',
+			'Using Bytetrack to track an individuals',
 		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
 		logo: Assets.Python,
 		name: 'People Tracking',
@@ -17,7 +17,12 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date()
 		},
 		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
-		type: 'People Tracker'
+		type: 'People Tracker',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: 'static/imgs/Picture1.png'
+			}]
 	},
 	{
 		slug: 'llama2-prompting',
