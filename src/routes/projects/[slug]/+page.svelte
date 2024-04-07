@@ -90,12 +90,14 @@
 					>
 						{#each screenshots as item}
 							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
+								<a href="{item.src}">
 								{#if item.height != null}
 								<img class="aspect-video w-100%" style="height:{item.height}px" src={item.src} alt={item.label} />
 								{:else}
 								<img class="aspect-video w-100%" src={item.src} alt={item.label} />
 								{/if}
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
+							</a>
 							</div>
 						{/each}
 					</div>
