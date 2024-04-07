@@ -4,15 +4,15 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'Create3 person tracking',
+		slug: 'create3-person-tracking',
 		color: '#5e95e3',
 		description:
 			'Using <a href=https://edu.irobot.com/what-we-offer/create3>iRobot Create3</a> and <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> to follow a person in camera view',
 		shortDescription:
 			'Using Bytetrack to track individuals',
-		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		links: [{ to: 'https://profilewebsite.blob.core.windows.net/images/robot_person_view.mp4', label: 'Demo' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
 		logo: Assets.Python,
-		name: 'People Tracking',
+		name: 'Create3 person tracking',
 		period: {
 			from: new Date()
 		},
@@ -25,20 +25,17 @@ const MY_PROJECTS: Array<Project> = [
 			},
 		    {  label: 'ByteTrack',
 			   src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
-		    },
-			{  label:'Video',
-			   src:'https://profilewebsite.blob.core.windows.net/images/Tracking-Compare.mp4'
 		    }
 		]
 	},
 	{
-		slug: 'people tracking',
+		slug: 'people-tracking',
 		color: '#5e95e3',
 		description:
 			'Using <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> and <a href=https://github.com/noahcao/OC_SORT>OC_SORT</a> through mmtracking, detect and track individuals',
 		shortDescription:
 			'Using Bytetrack to track individuals',
-		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		links: [{ to: 'https://profilewebsite.blob.core.windows.net/images/Tracking-Compare.mp4', label: 'Demo' }],
 		logo: Assets.Python,
 		name: 'People Tracking',
 		period: {
