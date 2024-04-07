@@ -91,7 +91,7 @@
 						{#each screenshots as item}
 							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
 								{#if item.height != null}
-								<img class="aspect-video w-100%" style="height:{item.height}" src={item.src} alt={item.label} />
+								<img class="aspect-video w-100%" style="height:{item.height}px" src={item.src} alt={item.label} />
 								{:else}
 								<img class="aspect-video w-100%" src={item.src} alt={item.label} />
 								{/if}
