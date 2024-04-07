@@ -36,6 +36,7 @@ const Assets = {
 	Dart: a('dart.png'),
 	Kotlin: a('kotlin.png'),
 	Python: a('python.png'),
+	ROS2: a('ros2.png'),
 	NodeJs: a('node.png'),
 	Deno: a('deno.png', 'deno-dark.png'),
 	Svelte: a('svelte.png'),
