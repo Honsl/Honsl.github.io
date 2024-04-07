@@ -4,6 +4,49 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'q-a-news',
+		color: '#73D35B',
+		description:
+			'Creation of a system that can scrape recent news articles and with a LLM answer questions on the articles. Using <a href="https://docs.trychroma.com/">ChromaDB</a>, <a href="https://www.langchain.com/langchain">LangChain</a>, and OpenAI',
+		shortDescription:
+			'AI to answer news of the day',
+		links: [],
+		logo: Assets.Python,
+		name: 'Q/A news answering LLM',
+		period: {
+			from: new Date('April 2024'),
+			to:new Date('April 2024')
+		},
+		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
+		type: 'QA News',
+		screenshots: [
+			{
+				label: 'Example Result',
+				src: 'https://profilewebsite.blob.core.windows.net/images/qa_news.png'
+			}
+		]
+	},
+	{
+		slug: 'pytorch-image-class',
+		color: '#73D35B',
+		description:
+			'Using pytorch create a model from scratch to classify images',
+		shortDescription:
+			'Create pytorch model to classify images',
+		links: [],
+		logo: Assets.Pytorch,
+		name: 'Create3 Person Tracking',
+		period: {
+			from: new Date('April 2024'),
+			to:new Date('April 2024')
+		},
+		skills: getSkills('python','pytorch'/*, 'ts', 'tailwind'*/),
+		type: 'Image Classifer',
+		screenshots: [
+		
+		]
+	},
+	{
 		slug: 'create3-person-tracking',
 		color: '#73D35B',
 		description:
@@ -14,7 +57,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Python,
 		name: 'Create3 Person Tracking',
 		period: {
-			from: new Date('April 2024')
+			from: new Date('April 2024'),
+			to:new Date('April 2024')
 		},
 		skills: getSkills('python','ros2'/*, 'ts', 'tailwind'*/),
 		type: 'Person Tracker',
