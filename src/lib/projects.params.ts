@@ -21,7 +21,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'https://drive.google.com/uc?id=1ME3PLC1C_dekKyfx27cCh18yrAvHuW6q'
+				src: 'https://drive.usercontent.google.com/download?id=1ME3PLC1C_dekKyfx27cCh18yrAvHuW6q&authuser=0'
 			}
 		]
 	},
