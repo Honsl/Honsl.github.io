@@ -10,7 +10,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.SelfEmployed,
 		type: 'Full-Stack Development',
 		location: 'Home',
-		period: { from: new Date() },
+		period: { from: new Date('September 2022') },
 		skills: getSkills('Csharp', 'dotnet'),
 		name: 'Open Source Developer',
 		color: '#ffffff',
