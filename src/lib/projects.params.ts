@@ -10,22 +10,23 @@ const MY_PROJECTS: Array<Project> = [
 			'Using <a href=https://edu.irobot.com/what-we-offer/create3>iRobot Create3</a> and <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> to follow a person in camera view',
 		shortDescription:
 			'Using Bytetrack to track individuals',
-		links: [{ to: 'https://profilewebsite.blob.core.windows.net/images/robot_person_view.mp4', label: 'Demo' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		links: [{ to: 'https://profilewebsite.blob.core.windows.net/images/robot_person_view.mp4', label: 'Demo' }],
 		logo: Assets.Python,
 		name: 'Create3 person tracking',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
-		type: 'People Tracker',
+		skills: getSkills('python','ros2'/*, 'ts', 'tailwind'*/),
+		type: 'Person Tracker',
 		screenshots: [
 			{
-				label: 'Compare Trackers',
-				src: 'https://profilewebsite.blob.core.windows.net/images/Picture1.png'
+				label: 'Create3',
+				src: 'https://profilewebsite.blob.core.windows.net/images/create_robot.png'
 			},
-		    {  label: 'ByteTrack',
-			   src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
-		    }
+			{
+				label: 'Screen',
+				src: 'https://profilewebsite.blob.core.windows.net/images/create_robot_screen.png'
+			}
 		]
 	},
 	{
@@ -48,9 +49,10 @@ const MY_PROJECTS: Array<Project> = [
 				label: 'Compare Trackers',
 				src: 'https://profilewebsite.blob.core.windows.net/images/Picture1.png'
 			},
-		    {  label: 'ByteTrack',
-			   src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
-		    }
+			{
+				label: 'ByteTrack',
+				src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
+			}
 		]
 	},
 	{
