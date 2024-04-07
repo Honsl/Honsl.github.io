@@ -35,7 +35,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Create pytorch model to classify images',
 		links: [],
 		logo: Assets.Pytorch,
-		name: 'Create3 Person Tracking',
+		name: 'Pytorch Classifier model',
 		period: {
 			from: new Date('April 2024'),
 			to:new Date('April 2024')
