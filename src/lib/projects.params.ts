@@ -5,7 +5,7 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'create3-person-tracking',
-		color: '#5e95e3',
+		color: '#73D35B',
 		description:
 			'Using <a href=https://edu.irobot.com/what-we-offer/create3>iRobot Create3</a> and <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> to follow a person in camera view',
 		shortDescription:
@@ -14,7 +14,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Python,
 		name: 'Create3 Person Tracking',
 		period: {
-			from: new Date()
+			from: new Date('April 2024')
 		},
 		skills: getSkills('python','ros2'/*, 'ts', 'tailwind'*/),
 		type: 'Person Tracker',
@@ -31,7 +31,7 @@ const MY_PROJECTS: Array<Project> = [
 	},
 	{
 		slug: 'people-tracking',
-		color: '#5e95e3',
+		color: '#C179E5',
 		description:
 			'Using <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> and <a href=https://github.com/noahcao/OC_SORT>OC_SORT</a> through mmtracking, detect and track individuals',
 		shortDescription:
@@ -40,7 +40,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Python,
 		name: 'People Tracking',
 		period: {
-			from: new Date()
+			from: new Date('April 2024')
 		},
 		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
 		type: 'People Tracker',
@@ -66,7 +66,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Meta,
 		name: 'Llama2 Scenario Prompts',
 		period: {
-			from: new Date()
+			from: new Date('Janurary 2024')
 		},
 		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
 		type: 'LLM Prompt Engineering'
@@ -82,7 +82,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Meta,
 		name: 'ChatGPT Scenario Prompts',
 		period: {
-			from: new Date()
+			from: new Date('Janurary 2024')
 		},
 		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
 		type: 'LLM Prompt Engineering'
