@@ -4,13 +4,13 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'people tracking',
+		slug: 'Create3 person tracking',
 		color: '#5e95e3',
 		description:
-			'Using <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> and <a href=https://github.com/noahcao/OC_SORT>OC_SORT</a> through mmtracking, detect and track an individuals',
+			'Using <a href=https://edu.irobot.com/what-we-offer/create3>iRobot Create3</a> and <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> to follow a person in camera view',
 		shortDescription:
-			'Using Bytetrack to track an individuals',
-		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+			'Using Bytetrack to track individuals',
+		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
 		logo: Assets.Python,
 		name: 'People Tracking',
 		period: {
@@ -20,9 +20,40 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'People Tracker',
 		screenshots: [
 			{
-				label: 'screen 1',
+				label: 'Compare Trackers',
 				src: 'https://profilewebsite.blob.core.windows.net/images/Picture1.png'
-			}
+			},
+		    {  label: 'ByteTrack',
+			   src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
+		    },
+			{  label:'Video',
+			   src:'https://profilewebsite.blob.core.windows.net/images/Tracking-Compare.mp4'
+		    }
+		]
+	},
+	{
+		slug: 'people tracking',
+		color: '#5e95e3',
+		description:
+			'Using <a href=https://github.com/ifzhang/ByteTrack>Bytetrack</a> and <a href=https://github.com/noahcao/OC_SORT>OC_SORT</a> through mmtracking, detect and track individuals',
+		shortDescription:
+			'Using Bytetrack to track individuals',
+		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		logo: Assets.Python,
+		name: 'People Tracking',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
+		type: 'People Tracker',
+		screenshots: [
+			{
+				label: 'Compare Trackers',
+				src: 'https://profilewebsite.blob.core.windows.net/images/Picture1.png'
+			},
+		    {  label: 'ByteTrack',
+			   src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
+		    }
 		]
 	},
 	{
@@ -32,7 +63,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Prompting Llama2 to pretend to be a person in certain scenarios',
 		shortDescription:
 			'Prompting Llama2 to pretend to be a person in certain scenarios',
-		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
+		links: [{ to: 'https://github.com/Honsl/Llama2-Prompt-Engineering', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/1abBcKL6MP-Dki7VYOz25ja5_Y22YEe0O?usp=sharing', label: 'Colab' }],
 		logo: Assets.Meta,
 		name: 'Llama2 Scenario Prompts',
 		period: {
@@ -48,7 +79,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Prompting ChatGPT to pretend to be a person in certain scenarios',
 		shortDescription:
 			'Prompting ChatGPT to pretend to be a person in certain scenarios',
-		links: [{ to: 'https://github.com/Honsl/GPT-Prompt-Engineering', label: 'GitHub' },{ to: 'https://colab.research.google.com/drive/1JdSsdU05nLOKmJfQoipi0oqNl5KpCGnr?usp=sharing', label: 'Colab' }],
+		links: [{ to: 'https://github.com/Honsl/GPT-Prompt-Engineering', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/1JdSsdU05nLOKmJfQoipi0oqNl5KpCGnr?usp=sharing', label: 'Colab' }],
 		logo: Assets.Meta,
 		name: 'ChatGPT Scenario Prompts',
 		period: {
