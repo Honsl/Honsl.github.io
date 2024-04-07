@@ -22,7 +22,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Example Result',
-				src: 'https://profilewebsite.blob.core.windows.net/images/qa_news.png'
+				src: 'https://profilewebsite.blob.core.windows.net/images/qa_news.png',height:"500"
 			}
 		]
 	},

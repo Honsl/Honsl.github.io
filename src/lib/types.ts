@@ -27,7 +27,7 @@ export interface Item {
 	logo: Asset;
 	shortDescription: string;
 	description: string;
-	screenshots?: Array<{ src: string; label: string }>;
+	screenshots?: Array<{ src: string; label: string,height?:string }>;
 }
 
 export interface Link {
