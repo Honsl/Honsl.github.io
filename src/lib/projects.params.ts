@@ -21,7 +21,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'screen 1',
-				src: 'https://drive.usercontent.google.com/download?id=1ME3PLC1C_dekKyfx27cCh18yrAvHuW6q&authuser=0'
+				src: 'https://profilewebsite.blob.core.windows.net/images/Picture1.png'
 			}
 		]
 	},
