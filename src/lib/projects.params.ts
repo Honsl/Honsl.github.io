@@ -15,14 +15,14 @@ const MY_PROJECTS: Array<Project> = [
 		name: 'Q/A news answering LLM',
 		period: {
 			from: new Date('April 2024'),
-			to:new Date('April 2024')
+			to: new Date('April 2024')
 		},
 		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
 		type: 'QA News',
 		screenshots: [
 			{
 				label: 'Example Result',
-				src: 'https://profilewebsite.blob.core.windows.net/images/qa_news.png',height:"500"
+				src: 'https://profilewebsite.blob.core.windows.net/images/qa_news.png', height: "500"
 			}
 		]
 	},
@@ -38,12 +38,12 @@ const MY_PROJECTS: Array<Project> = [
 		name: 'Pytorch Classifier model',
 		period: {
 			from: new Date('April 2024'),
-			to:new Date('April 2024')
+			to: new Date('April 2024')
 		},
-		skills: getSkills('python','pytorch'/*, 'ts', 'tailwind'*/),
+		skills: getSkills('python', 'pytorch'/*, 'ts', 'tailwind'*/),
 		type: 'Image Classifer',
 		screenshots: [
-		
+
 		]
 	},
 	{
@@ -58,16 +58,16 @@ const MY_PROJECTS: Array<Project> = [
 		name: 'Create3 Person Tracking',
 		period: {
 			from: new Date('April 2024'),
-			to:new Date('April 2024')
+			to: new Date('April 2024')
 		},
-		skills: getSkills('python','ros2'/*, 'ts', 'tailwind'*/),
+		skills: getSkills('python', 'ros2'/*, 'ts', 'tailwind'*/),
 		type: 'Person Tracker',
 		screenshots: [
 			{
 				label: 'Create3',
 				src: 'https://profilewebsite.blob.core.windows.net/images/create_robot.png',
-				height:'400'
-			
+				height: '400'
+
 			},
 			{
 				label: 'Screen',
@@ -100,6 +100,23 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'https://profilewebsite.blob.core.windows.net/images/bytetracker.png'
 			}
 		]
+	},
+	{
+		slug: 'llm-language-learning',
+		color: '#5e95e3',
+		description:
+			'Creation of a <a href=”https://flutter.dev/”></a>Flutter prototype application to help people learn French through talking with an AI and receiving feedback. The application uses OpenAI’s gpt-3.5-turbo as the LLM to talk with the user in given scenarios and to give feedback on the users input. To check for spelling and sentence structure. The application also makes use of a Vector Database(<a href=”https://docs.trychroma.com/”> ChromaDB </a>) to check if the users input has met certain goals within the conversation.',
+		shortDescription:
+			'Creation of a prototype to help people learn French using a AI',
+		links: [],
+		logo: Assets.Meta,
+		name: 'LLM to teach French',
+		period: {
+			from: new Date('April 2024')
+		},
+		skills: getSkills('python'/*, 'ts', 'tailwind'*/),
+		type: 'LLM Prompt Engineering',
+		screenshots: [{ label: 'Example Conversation', src: "https://profilewebsite.blob.core.windows.net/images/french_app_2.png",height:'500' }, { label: "Conversation Goals", src: "https://profilewebsite.blob.core.windows.net/images/french_app_1.png",height:'500' }]
 	},
 	{
 		slug: 'llama2-prompting',
