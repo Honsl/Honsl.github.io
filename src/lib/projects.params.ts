@@ -65,7 +65,9 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Create3',
-				src: 'https://profilewebsite.blob.core.windows.net/images/create_robot.png'
+				src: 'https://profilewebsite.blob.core.windows.net/images/create_robot.png',
+				height:'400'
+			
 			},
 			{
 				label: 'Screen',
