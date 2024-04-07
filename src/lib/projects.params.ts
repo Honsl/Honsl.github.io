@@ -12,7 +12,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Using Bytetrack to track individuals',
 		links: [{ to: 'https://profilewebsite.blob.core.windows.net/images/robot_person_view.mp4', label: 'Demo' }],
 		logo: Assets.Python,
-		name: 'Create3 person tracking',
+		name: 'Create3 Person Tracking',
 		period: {
 			from: new Date()
 		},
