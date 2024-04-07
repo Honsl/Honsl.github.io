@@ -5,7 +5,7 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'q-a-news',
-		color: '#73D35B',
+		color: '#EA5454',
 		description:
 			'Creation of a system that can scrape recent news articles and with a LLM answer questions on the articles. Using <a href="https://docs.trychroma.com/">ChromaDB</a>, <a href="https://www.langchain.com/langchain">LangChain</a>, and OpenAI',
 		shortDescription:
@@ -28,7 +28,7 @@ const MY_PROJECTS: Array<Project> = [
 	},
 	{
 		slug: 'pytorch-image-class',
-		color: '#73D35B',
+		color: '#EAD754',
 		description:
 			'Using pytorch create a model from scratch to classify images',
 		shortDescription:
