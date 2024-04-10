@@ -33,7 +33,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Using pytorch create a model from scratch to classify images',
 		shortDescription:
 			'Create pytorch model to classify images',
-		links: [],
+		links: [{ to: 'https://github.com/Honsl/AI-Projects/tree/main/Cat%20Dog%20Classifier', label: 'GitHub' }, { to: 'https://colab.research.google.com/drive/19VA4QPQqrVPFIZeGEeaadpXJ3Oshx_GW#scrollTo=kFmG7rcdbqQ-', label: 'Colab' }],
 		logo: Assets.Pytorch,
 		name: 'Pytorch Classifier model',
 		period: {
